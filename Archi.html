@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archirio </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="./Images/background/favicon.png.webp">
+  <link rel="stylesheet" href="./Archi.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid p-0">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="mynavbar">
+        <div class="container-fluid ">
+          <div class="col-md-3 m-3 col-lg-3">
+            <a class="navbar-brand" href="#"><img src="./Images/background/logo.png" alt="logo" class="img-fluid"></a>
+          </div>
+          <div class="order-lg-1 ms-md-auto me-md-4">
+            <i class="fa-solid fa-magnifying-glass text-dark"></i>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center mydiv col-lg-8 justify-content-lg-between"
+            id="navbarNavDropdown">
+            <ul class="navbar-nav  justify-content-lg-around">
+              <li class="nav-item ps-3 pb-1 dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" id="green">
+                  Home
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item " href="#">Home One</a></li>
+                  <li><a class="dropdown-item" href="#">Home Two</a></li>
+                  <li><a class="dropdown-item" href="#">Home Three</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ps-3 pb-1  dropdown ps-lg-4">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About One</a></li>
+                  <li><a class="dropdown-item" href="#">About Two</a></li>
+                  <li><a class="dropdown-item" href="#">About Three</a></li>
+                  <li><a class="dropdown-item" href="#">About Four</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ps-3 pb-1 dropdown ps-lg-4">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Project
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Project One</a></li>
+                  <li><a class="dropdown-item" href="#">Project Two</a></li>
+                  <li><a class="dropdown-item" href="#">Project Three</a></li>
+                  <li><a class="dropdown-item" href="#">Project Four</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ps-3 pb-1 dropdown ps-lg-4">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blog Page</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Two</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Left</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Right</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ps-3 pb-1 dropdown ps-lg-4">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Service One</a></li>
+                  <li><a class="dropdown-item" href="#">Team Page</a></li>
+                  <li><a class="dropdown-item" href="#">Testimonial One</a></li>
+                  <li><a class="dropdown-item" href="#">Testimonial Two</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item ps-3 pb-1 ps-lg-4">
+                <a class="nav-link active " id="cont" aria-current="page" href="#footid">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="mt-5">
+         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" id="back1">
+              <!--<img src="./Images/background/1.jpg" class="d-block w-100 " alt="img1">-->
+              <div class="slidercontent">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="slidertext">
+                        <div class="line p-3">
+                          <h2 class="text-white mt-2 p-md-4">
+                            <span class="d-block">Discover</span>
+                            Your Dream
+                            <span class="color">Home</span>
+                          </h2>
+                          <p class="text-white mt-3 mt-md-0 ms-md-3">
+                            Why Over<span>50000</span> Customers Have Choosen
+                            <span>Architecture & Interior</span> Design.
+                          </p>
+                          <a href="#" class="text-decoration-none ms-md-3">
+                            See Project
+                            <i class="fa-solid fa-arrow-right color"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" id="back2">
+              <!--- <img src="./Images/background/2.jpg" class="d-block w-100" alt="img2">-->
+              <div class="slidercontent">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="slidertext">
+                        <div class="line  ms-1 p-3">
+                          <h2 class="text-white mt-2 p-md-4">
+                            <span class="color">Archirio </span> Service
+                            <span class="d-block">Studio</span>
+                          </h2>
+                          <p class="text-white mt-3 mt-md-0 ms-md-3">
+                            Why Over<span>50000</span> Customers Have Choosen
+                            <span>Architecture & Interior</span> Design.
+                          </p>
+                          <a href="#" class="text-decoration-none ms-md-3">
+                            See Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                 </div>
+             </div>
+              </div>
+            </div>
+            <div class="carousel-item" id="back3">
+              <!-- <img src="./Images/background/9.jpg" class="d-block w-100" alt="img3">-->
+              <div class="slidercontent">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="slidertext">
+                        <div class="line ms-1 p-3">
+                          <h2 class="text-white mt-2 p-md-4">
+                            <span class="d-block">Discover</span>
+                            Your Dream
+                            <span class="color">Home</span>
+                          </h2>
+                          <p class="text-white mt-3 mt-md-0 ms-md-3">
+                            Why Over<span>50000</span> Customers Have Choosen
+                            <span>Architecture & Interior</span> Design.
+                          </p>
+                          <a href="#" class="text-decoration-none ms-md-3">
+                            See Project
+                            <i class="fa-solid fa-arrow-right color"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         </section>
+      <section class="part2">
+        <div class="container">
+          <div class="row mb-lg-5">
+            <div class="col-12 col-lg-6 mb-lg-3">
+              <div class=" part2-1 about-wrap content ">
+                <h2 class="mb-2  display-6 fw-bold">WELCOME TO INTERIOR</h2>
+                <h3 id="head" class=mb-4>We Are The Leader In The Architectural</h3>
+                <p class="mb-4">For each project we establish relation ships with ano partners we know will help us
+                  create
+                  added value
+                  for your project well any bringing together the public and private sectors, we diferent
+                  sector-overarching
+                  links to gather knowledge.</p>
+                <div class="row p-3  p-md-4">
+                  <div class="about-content shadow p-4 mb-4  text-center col-md-4">
+                    <h4>0 +</h4>
+                    <p>Experience Years</p>
+                  </div>
+                  <div class="about-content shadow p-4 mb-5 mb-md-4 text-center ms-md-4 col-md-4">
+                    <h4>0 +</h4>
+                    <p>Experience Years</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-none d-lg-block col-lg-6 imgdiv">
+              <div class="part2-2">
+                <!--  <img src="./Images/background/part2.jpg" class="img-fluid ">-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="part3">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="title text-center mb-5">
+                <h2 class="fw-bold head2">OUR SPECIALIZATION</h2>
+                <h3 class=" ps-2 pe-2 lh-base head3">A wall for our project glory and a place to find more</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="part3-1 d-none d-lg-block col-lg-6">
+              <div class="specialimg">
+                <img src="./Images/background/1 (2).jpg" alt="imgspecial" class="img-fluid">
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="specialwrap p-3  row justify-content-md-between  justify-content-lg-around p-lg-0">
+
+                <div class="item1  text-center mb-5 col-md-3 ps-lg-1 mt-lg-5">
+                  <i class="fa-solid fa-house mb-3 fs-3 text-black"></i>
+                  <h4 class="text-uppercase fs-6 fw-light ">Architecture</h4>
+                </div>
+
+                <div class="item1 text-center mb-5 col-md-3 ms-md-2 ps-lg-1 pe-lg-1 mt-lg-5">
+                  <i class="fa-solid fa-house-chimney mb-3 fs-3 text-black"></i>
+                  <h4 class="text-uppercase  fs-6 fw-light">Interior-Design</h4>
+                </div>
+
+                <div class="item1 text-center mb-5 col-md-3 ps-lg-1 pe-lg-1 mt-lg-5">
+                  <i class="fa-solid fa-city mb-3 fs-3 text-black"></i>
+                  <h4 class="text-uppercase  fs-6 fw-light">Building-Design</h4>
+                </div>
+
+                <div class="item1 text-center mb-5 col-md-3 ps-lg-1 pe-lg-1 mt-lg-4">
+                  <i class="fa-solid fa-hotel mb-3 fs-3 text-black"></i>
+                  <h4 class="text-uppercase  fs-6 fw-light">Art-Design</h4>
+                </div>
+
+                <div class="item1 text-center mb-5 col-md-3 ms-2 ps-lg-1 pe-lg-1 mt-lg-4">
+                  <i class="fa-solid fa-landmark mb-3 fs-3 text-black"></i>
+                  <h4 class="text-uppercase  fs-6 fw-light">home-Design</h4>
+                </div>
+
+                <div class="item1 text-center mb-5 col-md-3 ps-lg-1 pe-lg-1 mt-lg-4">
+                  <i class="fa-solid fa-hotel mb-3 fs-3 text-black"></i>
+                  <h4 class="text-uppercase  fs-6 fw-light">Hotel-Design</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="part4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mb-4 col-lg-4 p-lg-0">
+              <h2 class="fw-bold head2 text-center">LATEST PROJECT</h2>
+            </div>
+            <div class="col-12 col-lg-8 p-lg-0 ">
+              <div class="project text-center text-lg-start mb-5 ms-lg-0">
+                <button class="active hov">VIEW All</button>
+                <button class="mb-1 hov">Residential</button>
+                <button class="mb-1 hov">Corporate</button>
+                <button class="mb-1 hov">Restaurent</button>
+                <button class="mb-1 hov">Industrial</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row parent justify-content-center">
+            <div class="m-3 col-11 col-md-5 col-lg-3">
+              <!-- <div class="projectwrap mb-3 mb-md-0"> -->
+              <img src="./Images/illustration/1 (3).jpg" alt="img4" class="img-fluid">
+              <!-- </div> -->
+            </div>
+            <div class="m-3 col-11 col-md-5 col-lg-3">
+              <!-- <div class="projectwrap mb-3 mb-md-0"> -->
+              <img src="./Images/illustration/2 (1).jpg" alt="img5" class="img-fluid h-100" height="100%">
+              <!-- </div> -->
+            </div>
+            <div class="m-3 col-11 col-md-5 col-lg-3">
+              <!-- <div class="projectwrap mb-3 mb-md-0"> -->
+              <img src="./Images/illustration/5.jpg" alt="img6" class="img-fluid">
+              <!-- </div> -->
+            </div>
+            <div class="m-3 col-11 col-md-5 col-lg-3">
+              <!-- <div class="projectwrap mb-3 mb-md-0"> -->
+              <img src="./Images/illustration/3.jpg" alt="img6" class="img-fluid">
+              <!-- </div> -->
+            </div>
+            <div class="m-3 col-11 col-md-5 col-lg-3">
+              <div class="projectwrap mb-3  mb-md-0">
+                <img src="./Images/illustration/6.jpg" alt="img8" class="img-fluid">
+              </div>
+            </div>
+            <div class="m-3 col-11 col-md-5 col-lg-3">
+              <!-- <div class="projectwrap mb-3 mb-md-0"> -->
+              <img src="./Images/illustration/3 (2).jpg" alt="img7" class="img-fluid">
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="part5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="title text-center mb-5">
+                <h2 class="fw-bold head2">SERVICE WE DO</h2>
+                <h3 class="ps-2 pe-2 lh-base head3">A wall for our project glory and a place to find more</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="servicewrap mb-4 col-md-6 mb-md-5 col-lg-4">
+              <div class="serviceimg">
+                <img src="./Images/illustration/service1.jpg" alt="ser1" class="img-fluid">
+              </div>
+              <div class="servicecontent bg-white projectmenu">
+                <h4 class="text-uppercase fs-5 mb-4 fw-bold">Residential Design</h4>
+                <p class="lh-base">It has survived not only five centui but the leap into electronic typesetting remain
+                  essentially
+                  unchanged.</p>
+                <button class="active fw-medium red">READ MORE</button>
+              </div>
+            </div>
+
+            <div class="servicewrap mb-4 col-md-6 mb-md-5 col-lg-4">
+              <div class="serviceimg">
+                <img src="./Images/illustration/service2.jpg" alt="ser1" class="img-fluid">
+              </div>
+              <div class="servicecontent bg-white projectmenu">
+                <h4 class="text-uppercase fs-5 mb-4 fw-bold">corporate Design</h4>
+                <p class="lh-base">It has survived not only five centui but the leap into electronic typesetting remain
+                  essentially
+                  unchanged.</p>
+                <button class="active fw-medium red">READ MORE</button>
+              </div>
+            </div>
+
+            <div class="servicewrap mb-4 col-md-6 mb-md-5 col-lg-4">
+              <div class="serviceimg">
+                <img src="./Images/illustration/service3.jpg" alt="ser1" class="img-fluid">
+              </div>
+              <div class="servicecontent bg-white projectmenu">
+                <h4 class="text-uppercase fs-5 mb-4 fw-bold">Commercial design</h4>
+                <p class="lh-base">It has survived not only five centui but the leap into electronic typesetting remain
+                  essentially
+                  unchanged.</p>
+                <button class="active fw-medium red">READ MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="part6 bg-img-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 mydiv1 col-md-3">
+              <div class="text-center">
+                <h2>0</h2>
+                <p class="text-white fs-5">YEARS</p>
+              </div>
+            </div>
+            <div class="col-6 mydiv1 col-md-3">
+              <div class="text-center">
+                <h2>0</h2>
+                <p class="text-white fs-5">PROJECTS</p>
+              </div>
+            </div>
+            <div class="col-6 mydiv1 col-md-3">
+              <div class="text-center">
+                <h2>0</h2>
+                <p class="text-white fs-5">MEMBERS</p>
+              </div>
+            </div>
+            <div class="col-6 mydiv1 col-md-3">
+              <div class="text-center">
+                <h2>0</h2>
+                <p class="text-white fs-5">AWARDS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="part7">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="title text-center mb-5">
+                <h2 class="fw-bold head2">OUR GREAT TEAM</h2>
+                <h3 class="ps-2 pe-2 lh-base head3">A wall for our project glory and a place to find more</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="teamwrap">
+                <div class="teamimg">
+                  <img src="./Images/illustration/team1.jpg" class="img-fluid w-100" alt="team1">
+                </div>
+                <div class="teamcontent bg-white text-center">
+                  <h4 class="text-uppercase fw-bold ">Suzeo deago</h4>
+                  <p>Interior designer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="teamwrap">
+                <div class="teamimg">
+                  <img src="./Images/illustration/team2.jpg" class="img-fluid w-100" alt="team1">
+                </div>
+                <div class="teamcontent bg-white text-center">
+                  <h4 class="text-uppercase fs-5 fw-bold">Alex deago</h4>
+                  <p>Web designer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="teamwrap">
+                <div class="teamimg">
+                  <img src="./Images/illustration/team3.jpg" class="img-fluid w-100" alt="team1">
+                </div>
+                <div class="teamcontent bg-white text-center">
+                  <h4 class="text-uppercase fs-5 fw-bold">pol biz</h4>
+                  <p>Web designer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+              <div class="teamwrap">
+                <div class="teamimg">
+                  <img src="./Images/illustration/team4.jpg" class="img-fluid w-100" alt="team1">
+                </div>
+                <div class="teamcontent bg-white text-center">
+                  <h4 class="text-uppercase fs-5 fw-bold">Alex deago</h4>
+                  <p>CEO and Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="part8">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="title text-white mb-5">
+                <h2 class="fw-bold head2 mb-2">CUSTOMER FEEDBACK</h2>
+                <h3 class="ps-2 pe-2 lh-base head3">A wall for our project glory and a place to find more</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row p-md-3 justify-content-md-between">
+            <div class="col-12  order-md-1  ps-md-2   col-md-5 ">
+              <div class=" ms-4  text-img">
+                <div class="silktrack" style="opacity:1; width:260px;">
+                  <div class="img9"
+                    style="width: 242px; position: relative; left: -10px; top: -7px; z-index: 999; opacity: 1;">
+                    <img src="./Images/background/bgopacity.jpg" alt="image" class="img-fluid">
+                    <div id="star" class="ps-3">
+                      <ul class="list-unstyled mt-2">
+                        <li class="text-white d-inline-block ">Project Ratting : </li>
+                        <li class="d-inline-block"><i class="fa-solid fa-star"></i></li>
+                        <li class="d-inline-block"><i class="fa-solid fa-star"></i></li>
+                        <li class="d-inline-block"><i class="fa-solid fa-star"></i></li>
+                        <li class="d-inline-block"><i class="fa-solid fa-star"></i></li>
+                        <li class="d-inline-block"><i class="fa-solid fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <div class="textimg">
+                      <img src="./Images/illustration/text-img.png" alt="textimg" class="rounded-circle lady img-fluid">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-12  col-md-7">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item mb-5 active">
+                    <div class="part8-second">
+                      <i class="fa-solid fa-quote-left mb-4 ms-1"></i>
+                      <p class="text-white mb-4 fs-md-6">Great explorer of the truth, the master seds builder of human
+                        happiness.
+                        No one rejects, dislikes
+                        rationally encounter.Great explorer of the truth, the master seds builder uman happiness. No one
+                        rejects, dislikes, rationally encounter.Great explorer of the truth, the master seds builder
+                      </p>
+                      <h4 class="text-white fs-6 mb-0">Landy Drammer</h4>
+                      <span class="d-block color mb-2">Newyork City</span>
+                    </div>
+                  </div>
+                  <div class="carousel-item mb-5">
+                    <div class="part8-second">
+                      <i class="fa-solid fa-quote-left mb-4 ms-1"></i>
+                      <p class="text-white mb-4">Great explorer of the truth, the master seds builder of human
+                        happiness.
+                        No one rejects, dislikes
+                        rationally encounter.Great explorer of the truth, the master seds builder uman happiness. No one
+                        rejects, dislikes, rationally encounter.Great explorer of the truth, the master seds builder
+                      </p>
+                      <h4 class="text-white fs-6 mb-0">Alex Smit</h4>
+                      <span class="d-block color mb-2">London Ciyt</span>
+                    </div>
+                  </div>
+                  <div class="carousel-item mb-5">
+                    <div class="part8-second">
+                      <i class="fa-solid fa-quote-left mb-4 ms-1"></i>
+                      <p class="text-white mb-4">Great explorer of the truth, the master seds builder of human
+                        happiness.
+                        No one rejects, dislikes
+                        rationally encounter.Great explorer of the truth, the master seds builder uman happiness. No one
+                        rejects, dislikes, rationally encounter.Great explorer of the truth, the master seds builder
+                      </p>
+                      <h4 class="text-white fs-6 mb-0">Jony Andarson</h4>
+                      <span class="d-block color mb-2">USA</span>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev">
+                  <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+                  <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="part9">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mb-4">
+              <div class="title text-center mb-4">
+                <h2 class="fw-bold head2">LATEST NEWS</h2>
+                <h3 class="ps-2 pe-2 lh-base head3">A wall for our project glory and a place to find more</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-md-6 col-lg-4">
+              <div class="blog-wrap mb-4 ">
+                <div class="blog-img mb-4">
+                  <img src="./Images/illustration/blog-1.jpg" alt="blog1" class="img-fluid">
+                </div>
+                <div class="blog-content">
+                  <ul class="meta list-unstyled">
+                    <li class="d-inline-block"><a href="#" class="text-decoration-none text-uppercase text-black">20
+                        September 2017</a></li>
+                    <li class="d-inline-block">|</li>
+                    <li class="d-inline-block"><a href="#" class="text-decoration-none  text-black">BY HERMAN MILLER</a>
+                    </li>
+                  </ul>
+                  <h4 class="mt-2 pb-3">
+                    <a href="#" class="text-decoration-none text-uppercase text-black fw-bold fs-5">I like the body. I
+                      like to design everything.</a>
+                  </h4>
+                  <p>There are many variations of passages of Lorem Ipsum gool available, the majority have suffered
+                    alteration in some form…</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="blog-wrap mb-4 ">
+                <div class="blog-img mb-4">
+                  <img src="./Images/illustration/blog-2.jpg" alt="blog1" class="img-fluid">
+                </div>
+                <div class="blog-content">
+                  <ul class="meta list-unstyled">
+                    <li class="d-inline-block"><a href="#" class="text-decoration-none text-uppercase text-black">25
+                        March 2017</a></li>
+                    <li class="d-inline-block">|</li>
+                    <li class="d-inline-block"><a href="#" class="text-decoration-none  text-black">BY HERMAN MILLER</a>
+                    </li>
+                  </ul>
+                  <h4 class="mt-2 pb-3">
+                    <a href="#" class="text-decoration-none text-uppercase text-black fw-bold fs-5">MINIMAL & MODULAR
+                      YOUR NEXT MODULAR</a>
+                  </h4>
+                  <p>There are many variations of passages of Lorem Ipsum gool available, the majority have suffered
+                    alteration in some form…</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="blog-wrap mb-4 ">
+                <div class="blog-img mb-4">
+                  <img src="./Images/illustration/blog-3.jpg" alt="blog1" class="img-fluid">
+                </div>
+                <div class="blog-content">
+                  <ul class="meta list-unstyled">
+                    <li class="d-inline-block"><a href="#" class="text-decoration-none text-uppercase text-black">20
+                        April 2017</a></li>
+                    <li class="d-inline-block">|</li>
+                    <li class="d-inline-block"><a href="#" class="text-decoration-none  text-black">BY HERMAN MILLER</a>
+                    </li>
+                  </ul>
+                  <h4 class="mt-2 pb-3">
+                    <a href="#" class="text-decoration-none text-uppercase text-dark fw-bold fs-5">Graphic Design and
+                      Editorial: Drope.</a>
+                  </h4>
+                  <p>There are many variations of passages of Lorem Ipsum gool available, the majority have suffered
+                    alteration in some form…</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="part10">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <img src="./Images/background/brand1.png" alt="imgbrand1" class="img-fluid">
+            </div>
+            <div class="col-3">
+              <img src="./Images/background/brand2.png" alt="imgbrand2" class="img-fluid">
+            </div>
+            <div class="col-3">
+              <img src="./Images/background/brand3.png" alt="imgbrand3" class="img-fluid">
+            </div>
+            <div class="col-3">
+              <img src="./Images/background/brand4.png" alt="imgbrand4" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="part11" id="mycontact">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60077.93427730234!2d74.4353326159258!3d19.76063921608124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc5ba7461768af%3A0xd802d2c2943c99c!2sShirdi%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1728473320355!5m2!1sen!2sin"
+          width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+
+    </main>
+    <footer  data-bs-spy="scroll" data-bs-target="mynavbar" data-bs-smooth-scroll="true">
+      <section class="part12" id="footid">
+        <div class="foottop">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="mb-4">
+                  <img src="./Images/background/logo.png" class="mb-4">
+                  <p class="mb-4">Lorem Ipsum available but the arran majority have suffered alteration in some form by
+                    injected
+                    humour.</p>
+                  <h4 class="text-uppercase fs-6">Working Hours: </h4>
+                  <span class="d-block mb-4">Mon - Sat 8:00 - 18:00 (Sunday off)</span>
+                  <ul class="list-unstyled">
+                    <li class="d-inline-block ms-2"><a href="#"><i class="fa-brands  text-black fa-facebook-f"></i></a>
+                    </li>
+                    <li class="d-inline-block ms-2"><a href="#"><i class="fa-brands  text-black fa-twitter"></i></a>
+                    </li>
+                    <li class="d-inline-block ms-2"><a href="#"><i class="fa-brands  text-black fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="d-inline-block ms-2"><a href="#"><i
+                          class="fa-brands  text-black fa-google-plus-g"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 icon col-md-6 col-lg-3">
+                <div class="mb-4">
+                  <h4 class="fs-5 fw-semibold mt-3 mb-5"><span class="me-4"> <i class="fa-solid fa-grip-lines-vertical"
+                        style="color:#cee002;font-size: 19px;"></i></span>GET IN TOUCH</h4>
+                  <ul class="list-unstyled">
+                    <li class="mb-4"><i class="fa-solid ms-2 me-3  fa-house-chimney text-black"
+                        style="height: 25px; width:25px;font-size: 14px; border:1px solid #cee002; text-align: center; line-height: 24px; "></i>
+                      1265 North Avenue LukeLane <span id="space"> South Bend, IN 3600025</span></li>
+                    <li class="mb-4"><i class="fa-solid ms-2 me-3 fa-phone text-black"
+                        style="height: 25px; width:25px;font-size: 14px; border:1px solid #cee002; text-align: center; line-height: 24px; "></i>
+                      +012 549 594</li>
+                    <li class="mb-4"><i class="fa-solid ms-2 me-3 fa-fax text-black"
+                        style="height: 25px; width:25px;font-size: 14px; border:1px solid #cee002; text-align: center; line-height: 24px; "></i>support@email.com
+                    </li>
+                    <li class="mb-4"><i class="fa-solid ms-2 me-3 fa-envelope text-black"
+                        style="height: 25px; width:25px;font-size: 14px; border:1px solid #cee002; text-align: center; line-height: 24px; "></i>support@email.com
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 icon col-md-6 col-lg-3">
+                <div class="mb-4">
+                  <h4 class="fs-5 fw-semibold mt-3 mb-5"><span class="me-4"> <i class="fa-solid fa-grip-lines-vertical"
+                        style="color:#cee002;font-size: 19px;"></i></span>SERVICES</h4>
+                  <ul class="list-unstyled">
+                    <li class="mb-4"><i class="fa-solid fa-right-long me-4" style="color:#cee002;"></i>Home</li>
+                    <li class="mb-4"><i class="fa-solid fa-right-long me-4" style="color:#cee002;"></i>About us</li>
+                    <li class="mb-4"><i class="fa-solid fa-right-long me-4" style="color:#cee002;"></i>Our Works</li>
+                    <li class="mb-4"><i class="fa-solid fa-right-long me-4" style="color:#cee002;"></i>Contact</li>
+                    <li class="mb-4"><i class="fa-solid fa-right-long me-4" style="color:#cee002;"></i>News</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="mb-4">
+                  <h4 class="fs-5 fw-semibold mt-3 mb-5"><span class="me-4"> <i class="fa-solid fa-grip-lines-vertical"
+                        style="color:#cee002;font-size: 19px;"></i></span>NEWSLETTER</h4>
+                  <p class="mb-4 lh-base">Lorem Ipsum available, but the majority the have suffered alteration some.</p>
+                  <div>
+                    <input type="email" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Enter your Email" style="background-color: transparent;">
+                    <button class="active fw-normal sub">SUBSCRIBE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footbot text-center" style="background-color: #cee002; padding: 20px 0px; font-size: 14px;">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <p class="lh-2 mt-2">&copy; copyrigth &copy;2024 All Right Reserved | This Template is made by Shinde
+                  Dhanshri
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </div>
+</body>
+
+</html>
